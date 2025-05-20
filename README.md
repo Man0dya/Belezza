@@ -1,6 +1,6 @@
 # Belezza - Online Fashion Store
 
-"Belezza" is a comprehensive e-commerce platform built for an online fashion store, providing a complete solution for Browse, purchasing, and managing fashion products. This project aims to deliver a seamless and engaging shopping experience for fashion enthusiasts while offering robust administrative tools for efficient product and user management.
+Belezza" is a comprehensive e-commerce platform built for an online fashion store, meticulously designed to offer a complete, end-to-end solution for **Browse, selecting, purchasing, and managing** a wide range of fashion products. The project emphasizes creating a **seamless and engaging shopping experience** for customers, coupled with providing **robust, intuitive administrative tools** for efficient product catalog management, order processing, and user administration.
 
 ## Features
 
