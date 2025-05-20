@@ -15,13 +15,13 @@
 **Admin-facing:**
 * **Product Management:** Add new products, update existing ones, and remove products.
 * **User Management:** View and manage registered user accounts.
-* **Contact Management:** (If applicable, e.g., viewing user queries submitted through a contact form).
+* **Contact Management:** viewing user queries submitted through a contact form.
 
 ## Technologies Used
 
 * **Backend:** PHP
 * **Frontend:** HTML5, CSS3, JavaScript
-* **Database:** MySQL (Assumed based on PHP usage)
+* **Database:** MySQL
 * **Version Control:** Git
 
 ## Project Structure
@@ -31,7 +31,7 @@ The project is organized into logical directories for better maintainability and
 * `.php` files: Handle backend logic, database interactions, and server-side rendering.
 * `.css` files: Define the styling and visual presentation of the application.
 * `.js` files: Implement client-side interactivity and dynamic content.
-* `assets/`: Contains static assets such as images, fonts, and potentially other media.
-* `config/`: Likely holds configuration files, such as database connection parameters.
+* `assets/`: Contains static assets such as images, fonts, and other media.
+* `config/`: holds configuration files, such as database connection parameters.
 * `upload/`: Used for storing uploaded product images or other user-generated content.
 * `.git/`: Standard Git repository directory for version control.
