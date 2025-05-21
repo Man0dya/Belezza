@@ -1,0 +1,118 @@
+/*<!-- IT23252554 -->*/
+body {
+    background-size: cover;
+    background-position: center;
+    background: url("../images/conUs.jpg") center/cover no-repeat;
+    backdrop-filter: blur(2px);
+}
+
+.formcontainer {
+    margin-top: 180px;
+    height: auto;
+    margin-bottom: 0px;
+    align-items: top;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.contactus-form h1 {
+    text-align: center;
+}
+
+.contactus-form {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(242, 230, 239, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.detail {
+    margin-bottom: 20px;
+}
+
+.detail label::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+}
+
+.detail label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.detail input,
+.detail textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.submit-button {
+    display: block;
+    width: auto;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #7a2b6d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #4a1942;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.address,
+.email {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(242, 230, 239, 0.8);
+}
+
+.hotline {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(242, 230, 239, 0.8);
+}
+
+.details h2 {
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .formcontainer {
+        padding: 20px;
+    }
+
+    .contactus-form {
+        width: 100%;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+}

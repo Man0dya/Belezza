@@ -1,0 +1,128 @@
+/*<!-- IT23209466 -->*/
+body{
+  background-size: cover;
+  background-position: center;
+  background: url("../images/loginBC.jpg") center/cover no-repeat; 
+  backdrop-filter: blur(2px); 
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+  padding: 0 20px;
+  margin: 70px 0 20px 0;
+
+}
+
+.login-section {
+  display: flex;    
+  flex-direction: column; 
+  width: 100%; 
+  padding: 20PX;
+  border: 2px solid black;
+  border-radius: 20px;
+  background:white;
+  margin-top: 70px;
+  max-width: 600px;
+  max-height: 600px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+.form-section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-section h2 {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.form-section form {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.form-section input[type="email"],
+.form-section input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative;
+}
+
+.login-button {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: whitesmoke;
+  background: #162938;
+  justify-content: center;
+  
+}
+.button-cen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+ 
+}
+.remember-me input{
+  margin-right: 5px;
+}
+
+.links1 {
+  margin-top: 20px;
+  text-align: left;
+  font-size: .9em;
+  font-weight: 500;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.links2{
+  margin-top: 15px;
+  text-align:right;
+  font-size: .9em;
+  font-weight: 500;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.register-link{
+  color: #162938;
+  text-decoration: none;
+  font-weight: 550;
+
+}
+.logout{
+  border: 1px none;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100px;
+  padding: 10px;
+  background-color: #162938;
+  cursor: pointer;
+  color: white;
+  justify-content: center;
+}

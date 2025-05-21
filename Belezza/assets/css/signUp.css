@@ -1,0 +1,102 @@
+/*IT23142732*/
+
+/* Create Account CSS */
+
+body {
+  background-size: cover;
+  background-position: center;
+  background: url("../images/loginBC.jpg") center/cover no-repeat;
+  backdrop-filter: blur(2px);
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 20px;
+  margin: 70px 0 20px 0;
+
+}
+
+.signup-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: white;
+  margin-top: 70px;
+  max-width: 600px;
+  max-height: 600px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+.form-section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-section h2 {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative;
+}
+
+.sign-button {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: whitesmoke;
+  background: #162938;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+}
+
+.links {
+  margin-top: 20px;
+  text-align: left;
+  font-size: .9em;
+  font-weight: 500;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.links .register-link {
+  color: #162938;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+@media (max-width: 768px) {
+  .signup-section {
+      width: 100%;
+      margin-top: 0;
+  }
+}
+
+  

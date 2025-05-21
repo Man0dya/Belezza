@@ -1,0 +1,55 @@
+/*<!-- IT23187214 -->*/
+form {
+    width: 350px;
+    margin: 0 auto;
+}
+
+input, select,textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button {
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu-ic{
+    margin-top: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+.checkbox-inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+@media (max-width: 767px) {
+    .sidebar {
+        position: fixed;
+        left: -250px; 
+        transition: left 0.5s ease-in-out;
+    
+    }
+    .sidebar.active {
+        left: 0; 
+    }
+    
+    .menu-icon{
+        position: fixed;
+        display: block;
+        margin: 0px 0px 0px 25px;
+    }
+}

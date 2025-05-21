@@ -1,0 +1,50 @@
+/*<!-- IT23156456 -->*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%; 
+    margin: 170px auto; 
+    margin-bottom: 70px;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    margin-left: -15px;
+}
+
+.para {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    margin: 20px 40px; 
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px; 
+}
+
+ul{
+    font-size: 16px; 
+    margin-bottom: 25px; 
+    padding-left: 40px; 
+}
+
+@media all and (max-width: 319px) {
+    .container {
+        width: 90%; 
+        margin: 150px auto; 
+}
+    .para {
+        font-size: 14px; 
+        margin: 20px 0; 
+    }
+
+    ul {
+        font-size: 13px; 
+        padding-left: 15px; 
+    }
+}

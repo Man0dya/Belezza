@@ -1,0 +1,45 @@
+.parent-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.userdetiCon {
+    margin: 10rem auto 3rem auto; 
+    width: 20rem;
+    height: auto;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+  }
+.udeilas{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.udeilas img {
+    
+    display: block;
+    margin: auto;
+}
+.dp {
+    width: 100px;
+    height: auto;
+  }
+
+button{
+    margin: 5px;
+    width:auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: whitesmoke;
+    background: #162938;
+    justify-content: center;
+}
